@@ -1,4 +1,15 @@
 <?php
+$formSuccessMessage = '';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $name = trim($_POST['name'] ?? '');
+  $phone = trim($_POST['phone'] ?? '');
+  $occasion = trim($_POST['occasion'] ?? '');
+  $date = trim($_POST['date'] ?? '');
+  if ($name !== '' && $phone !== '' && $occasion !== '' && $date !== '') {
+    $formSuccessMessage = 'Thank you! Your booking enquiry has been received. We will contact you shortly.';
+  }
+}
+
 $pageTitle = 'Contact Rent My Jewellery Gurgaon | Book Luxury Jewellery';
 $metaDescription = 'Contact Anusha at Rent My Jewellery Gurgaon for bridal jewellery rentals, WhatsApp booking, and location details.';
 $metaKeywords = 'contact jewellery rental Gurgaon, call bridal jewellery Gurgaon, WhatsApp jewellery booking';
@@ -37,7 +48,10 @@ include __DIR__ . '/includes/header.php';
       <div class="card reveal-right">
         <div class="card-body">
           <h2>Send Booking Enquiry</h2>
-          <form class="form-grid" action="#" method="post">
+          <?php if ($formSuccessMessage !== ''): ?>
+            <p class="muted"><?= htmlspecialchars($formSuccessMessage) ?></p>
+          <?php endif; ?>
+          <form class="form-grid" action="/contact.php" method="post">
             <input class="form-control" type="text" name="name" placeholder="Name" required />
             <input class="form-control" type="tel" name="phone" placeholder="Phone" required />
             <input class="form-control" type="text" name="occasion" placeholder="Occasion" required />

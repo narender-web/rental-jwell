@@ -6,7 +6,7 @@ $canonicalPath = '/maang-tikka.php';
 $ogImage = 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1200&q=80';
 $breadcrumbItems = [
   ['name' => 'Home', 'url' => '/index.php'],
-  ['name' => 'Categories', 'url' => '/necklace.php'],
+  ['name' => 'Categories', 'url' => '/jewellery-collections.php'],
   ['name' => 'Maang Tikka', 'url' => '/maang-tikka.php'],
 ];
 include __DIR__ . '/includes/header.php';
@@ -16,7 +16,7 @@ include __DIR__ . '/includes/header.php';
   <div class="container">
     <ol class="breadcrumb-list">
       <li><a href="/index.php">Home</a></li>
-<li><a href="/necklace.php">Categories</a></li>
+<li><a href="/jewellery-collections.php">Categories</a></li>
 <li><span class="current">Maang Tikka</span></li>
     </ol>
   </div>

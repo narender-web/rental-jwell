@@ -29,10 +29,10 @@
           <a href="tel:8447859331">Call: 8447859331</a>
           <a href="https://wa.me/918447859331" target="_blank" rel="noopener">WhatsApp</a>
           <p>O141-B, Smart World Gems, Gurgaon</p>
-          <div class="newsletter">
-            <input type="email" placeholder="Newsletter Email" aria-label="Newsletter Email" />
-            <a href="/contact.php" class="btn btn-gold">Join</a>
-          </div>
+          <form class="newsletter" action="/contact.php" method="get">
+            <input type="email" name="newsletter_email" placeholder="Newsletter Email" aria-label="Newsletter Email" required />
+            <button class="btn btn-gold" type="submit">Join</button>
+          </form>
         </div>
       </div>
       <div class="container copyright">© <?= date('Y') ?> Rent My Jewellery Gurgaon. All rights reserved.</div>
