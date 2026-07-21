@@ -5,6 +5,10 @@
   --muted: #525252;
   --border: rgba(16, 16, 16, 0.1);
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --gold-light: #f0d98e;
+  --gold-soft: #f3d98a;
+  --bp-tablet: 61.25em;
+  --bp-mobile: 47.5em;
 }
 
 * {
@@ -126,7 +130,7 @@ section {
 }
 
 .tagline {
-  color: #f0d98e;
+  color: var(--gold-light);
   text-transform: uppercase;
   font-size: 0.82rem;
   letter-spacing: 1.5px;
@@ -188,7 +192,7 @@ h1 {
 }
 
 .phone a {
-  color: #f3d98a;
+  color: var(--gold-soft);
 }
 
 .about p {
@@ -358,7 +362,7 @@ h1 {
   transform: translateY(0);
 }
 
-@media (max-width: 61.25em) {
+@media (max-width: var(--bp-tablet)) {
   .cards-grid,
   .icon-grid,
   .footer-grid {
@@ -370,7 +374,7 @@ h1 {
   }
 }
 
-@media (max-width: 47.5em) {
+@media (max-width: var(--bp-mobile)) {
   section {
     padding: 58px 0;
   }
