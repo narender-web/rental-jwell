@@ -5,6 +5,7 @@ if (menuToggle && siteNav) {
   menuToggle.addEventListener('click', () => {
     const isOpen = siteNav.classList.toggle('open');
     menuToggle.setAttribute('aria-expanded', String(isOpen));
+    menuToggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
   });
 
   siteNav.querySelectorAll('a').forEach((link) => {
