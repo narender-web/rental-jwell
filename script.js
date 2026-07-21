@@ -2,6 +2,7 @@ const menuToggle = document.querySelector('.menu-toggle');
 const siteNav = document.getElementById('siteNav');
 
 if (menuToggle && siteNav) {
+  menuToggle.setAttribute('aria-label', siteNav.classList.contains('open') ? 'Close navigation menu' : 'Open navigation menu');
   menuToggle.addEventListener('click', () => {
     const isOpen = siteNav.classList.toggle('open');
     menuToggle.setAttribute('aria-expanded', String(isOpen));
