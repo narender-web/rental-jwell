@@ -72,7 +72,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal">
-          <img src="https://images.unsplash.com/photo-1601121141481-9d6647bca1ed?auto=format&fit=crop&w=900&q=80" alt="Kids Floral Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?auto=format&fit=crop&w=900&q=80" alt="Kids Floral Set" loading="lazy" />
           <div class="card-body">
             <h3>Kids Floral Set</h3>
             <p class="muted">Comfortable floral-design jewellery for special celebrations.</p>
@@ -83,7 +83,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal-right">
-          <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?auto=format&fit=crop&w=900&q=80" alt="Kids Pearl Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1601121141481-9d6647bca1ed?auto=format&fit=crop&w=900&q=80" alt="Kids Pearl Set" loading="lazy" />
           <div class="card-body">
             <h3>Kids Pearl Set</h3>
             <p class="muted">Soft pearl-inspired jewellery, lightweight and safe for children.</p>

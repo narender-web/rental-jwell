@@ -72,7 +72,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal">
-          <img src="https://images.unsplash.com/photo-1601121141481-9d6647bca1ed?auto=format&fit=crop&w=900&q=80" alt="Pastel Bridesmaids Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1561828995-aa79a2db86dd?auto=format&fit=crop&w=900&q=80" alt="Pastel Bridesmaids Set" loading="lazy" />
           <div class="card-body">
             <h3>Pastel Bridesmaids Set</h3>
             <p class="muted">Soft-toned floral jewellery ideal for daytime ceremonies.</p>
@@ -83,7 +83,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal-right">
-          <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?auto=format&fit=crop&w=900&q=80" alt="Gold Bridesmaids Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1611107683227-e9060eccd846?auto=format&fit=crop&w=900&q=80" alt="Gold Bridesmaids Set" loading="lazy" />
           <div class="card-body">
             <h3>Gold Bridesmaids Set</h3>
             <p class="muted">Coordinated gold-tone matching set for all bridesmaids.</p>

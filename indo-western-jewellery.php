@@ -72,7 +72,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal">
-          <img src="https://images.unsplash.com/photo-1601121141481-9d6647bca1ed?auto=format&fit=crop&w=900&q=80" alt="Contemporary Gold Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=80" alt="Contemporary Gold Set" loading="lazy" />
           <div class="card-body">
             <h3>Contemporary Gold Set</h3>
             <p class="muted">Minimalist gold-tone set for modern brides and events.</p>
@@ -83,7 +83,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal-right">
-          <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?auto=format&fit=crop&w=900&q=80" alt="Layered Boho Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=900&q=80" alt="Layered Boho Set" loading="lazy" />
           <div class="card-body">
             <h3>Layered Boho Set</h3>
             <p class="muted">Multi-layered necklace with ethnic charm for destination events.</p>

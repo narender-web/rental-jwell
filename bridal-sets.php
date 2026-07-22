@@ -72,7 +72,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal">
-          <img src="https://images.unsplash.com/photo-1601121141481-9d6647bca1ed?auto=format&fit=crop&w=900&q=80" alt="Polki Bridal Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?auto=format&fit=crop&w=900&q=80" alt="Polki Bridal Set" loading="lazy" />
           <div class="card-body">
             <h3>Polki Bridal Set</h3>
             <p class="muted">Antique Polki finish with kundan detailing for a traditional look.</p>
@@ -83,7 +83,7 @@ include __DIR__ . '/includes/header.php';
           </div>
         </article>
         <article class="card reveal-right">
-          <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?auto=format&fit=crop&w=900&q=80" alt="Royal Bridal Set" loading="lazy" />
+          <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=900&q=80" alt="Royal Bridal Set" loading="lazy" />
           <div class="card-body">
             <h3>Royal Bridal Set</h3>
             <p class="muted">Layered gold-tone necklace set ideal for reception functions.</p>

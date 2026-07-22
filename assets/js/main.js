@@ -4,6 +4,8 @@ const mainNav = document.querySelector('[data-main-nav]');
 const navBackdrop = document.querySelector('[data-nav-backdrop]');
 const dropdownToggles = document.querySelectorAll('[data-dropdown-toggle]');
 
+const MOBILE_BREAKPOINT = 760;
+
 if (header) {
   const onScroll = () => {
     if (window.scrollY > 30) {
@@ -62,7 +64,7 @@ dropdownToggles.forEach((toggle) => {
     if (item) {
       const isOpen = item.classList.contains('open');
       // Close all other dropdowns on mobile
-      if (window.innerWidth <= 760) {
+      if (window.innerWidth <= MOBILE_BREAKPOINT) {
         document.querySelectorAll('.dropdown.open').forEach((d) => {
           if (d !== item) d.classList.remove('open');
         });
@@ -74,7 +76,7 @@ dropdownToggles.forEach((toggle) => {
 
 // Close desktop dropdowns on outside click
 document.addEventListener('click', (e) => {
-  if (window.innerWidth > 760 && !e.target.closest('.dropdown')) {
+  if (window.innerWidth > MOBILE_BREAKPOINT && !e.target.closest('.dropdown')) {
     document.querySelectorAll('.dropdown.open').forEach((d) => d.classList.remove('open'));
   }
 });

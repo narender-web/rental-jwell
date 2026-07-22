@@ -15,6 +15,7 @@
   --lux-bg-soft: #fbfbf8;
   --lux-gradient: linear-gradient(130deg, rgba(201, 168, 67, 0.18), rgba(255, 255, 255, 0.8));
   --container: min(1140px, 92vw);
+  --hamburger-offset: 7px;
 }
 
 * { box-sizing: border-box; }
@@ -155,7 +156,7 @@ h4 {
 }
 
 .nav-toggle.is-open .bar:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
+  transform: translateY(var(--hamburger-offset)) rotate(45deg);
 }
 
 .nav-toggle.is-open .bar:nth-child(2) {
@@ -164,7 +165,7 @@ h4 {
 }
 
 .nav-toggle.is-open .bar:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
+  transform: translateY(calc(var(--hamburger-offset) * -1)) rotate(-45deg);
 }
 
 .main-nav {
