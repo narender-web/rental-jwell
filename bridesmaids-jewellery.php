@@ -57,7 +57,47 @@ include __DIR__ . '/includes/header.php';
 
   <section class="section">
     <div class="container">
-      <h2 class="section-title reveal">Related Jewellery</h2>
+      <h2 class="section-title reveal">Featured Products</h2>
+      <p class="section-subtitle reveal">Curated bridesmaids jewellery available for immediate rental booking.</p>
+      <div class="grid grid-3">
+        <article class="card reveal-left">
+          <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=900&q=80" alt="Pearl Bridesmaids Set" loading="lazy" />
+          <div class="card-body">
+            <h3>Pearl Bridesmaids Set</h3>
+            <p class="muted">Elegant pearl necklace and earrings set for the wedding squad.</p>
+            <div class="btn-group">
+              <a class="btn btn-gold" href="tel:8447859331">Rental</a>
+              <a class="btn btn-outline" href="https://wa.me/918447859331" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1601121141481-9d6647bca1ed?auto=format&fit=crop&w=900&q=80" alt="Pastel Bridesmaids Set" loading="lazy" />
+          <div class="card-body">
+            <h3>Pastel Bridesmaids Set</h3>
+            <p class="muted">Soft-toned floral jewellery ideal for daytime ceremonies.</p>
+            <div class="btn-group">
+              <a class="btn btn-gold" href="tel:8447859331">Rental</a>
+              <a class="btn btn-outline" href="https://wa.me/918447859331" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal-right">
+          <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?auto=format&fit=crop&w=900&q=80" alt="Gold Bridesmaids Set" loading="lazy" />
+          <div class="card-body">
+            <h3>Gold Bridesmaids Set</h3>
+            <p class="muted">Coordinated gold-tone matching set for all bridesmaids.</p>
+            <div class="btn-group">
+              <a class="btn btn-gold" href="tel:8447859331">Rental</a>
+              <a class="btn btn-outline" href="https://wa.me/918447859331" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
       <div class="grid grid-3">
         <article class="card reveal"><div class="card-body"><h3>Necklace</h3><p class="muted">Layered and statement styles.</p><a class="btn btn-outline" href="/necklace.php">View</a></div></article>
         <article class="card reveal"><div class="card-body"><h3>Chokers</h3><p class="muted">Modern to heritage bridal chokers.</p><a class="btn btn-outline" href="/chokers.php">View</a></div></article>

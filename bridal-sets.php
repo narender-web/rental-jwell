@@ -57,7 +57,47 @@ include __DIR__ . '/includes/header.php';
 
   <section class="section">
     <div class="container">
-      <h2 class="section-title reveal">Related Jewellery</h2>
+      <h2 class="section-title reveal">Featured Products</h2>
+      <p class="section-subtitle reveal">Handpicked bridal sets available for immediate rental booking.</p>
+      <div class="grid grid-3">
+        <article class="card reveal-left">
+          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=80" alt="Grand Bridal Set" loading="lazy" />
+          <div class="card-body">
+            <h3>Grand Bridal Set</h3>
+            <p class="muted">Heavy necklace, earrings and maang tikka — perfect for wedding day.</p>
+            <div class="btn-group">
+              <a class="btn btn-gold" href="tel:8447859331">Rental</a>
+              <a class="btn btn-outline" href="https://wa.me/918447859331" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal">
+          <img src="https://images.unsplash.com/photo-1601121141481-9d6647bca1ed?auto=format&fit=crop&w=900&q=80" alt="Polki Bridal Set" loading="lazy" />
+          <div class="card-body">
+            <h3>Polki Bridal Set</h3>
+            <p class="muted">Antique Polki finish with kundan detailing for a traditional look.</p>
+            <div class="btn-group">
+              <a class="btn btn-gold" href="tel:8447859331">Rental</a>
+              <a class="btn btn-outline" href="https://wa.me/918447859331" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </article>
+        <article class="card reveal-right">
+          <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?auto=format&fit=crop&w=900&q=80" alt="Royal Bridal Set" loading="lazy" />
+          <div class="card-body">
+            <h3>Royal Bridal Set</h3>
+            <p class="muted">Layered gold-tone necklace set ideal for reception functions.</p>
+            <div class="btn-group">
+              <a class="btn btn-gold" href="tel:8447859331">Rental</a>
+              <a class="btn btn-outline" href="https://wa.me/918447859331" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
       <div class="grid grid-3">
         <article class="card reveal"><div class="card-body"><h3>Necklace</h3><p class="muted">Layered and statement styles.</p><a class="btn btn-outline" href="/necklace.php">View</a></div></article>
         <article class="card reveal"><div class="card-body"><h3>Chokers</h3><p class="muted">Modern to heritage bridal chokers.</p><a class="btn btn-outline" href="/chokers.php">View</a></div></article>

@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" role="img" aria-label="Rent My Jewellery Gurgaon logo"><rect width="180" height="50" rx="10" fill="#101010"/><text x="90" y="31" text-anchor="middle" font-family="Arial" font-size="12" fill="#C9A227">Rent My Jewellery</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 54" role="img" aria-label="Rentique logo">
+  <rect width="200" height="54" rx="12" fill="#0d0d0d"/>
+  <text x="100" y="24" text-anchor="middle" font-family="Georgia,serif" font-size="22" font-weight="bold" letter-spacing="4" fill="#C9A843">RENTIQUE</text>
+  <text x="100" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" letter-spacing="2" fill="rgba(201,168,67,0.7)">JEWELLERY RENTAL</text>
+</svg>

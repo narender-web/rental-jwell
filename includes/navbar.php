@@ -1,7 +1,16 @@
+<!-- Mobile nav backdrop -->
+<div class="nav-backdrop" data-nav-backdrop></div>
 <!-- Main Navigation -->
 <div class="container nav-wrap">
-  <a class="logo" href="/index.php">Rent My Jewellery Gurgaon</a>
-  <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Open menu">Menu</button>
+  <a class="logo" href="/index.php">
+    <img src="/assets/icons/logo.svg" alt="Rentique Jewellery Rental" width="120" height="44" />
+    <span class="logo-text">RENTIQUE</span>
+  </a>
+  <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Open menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
   <nav class="main-nav" data-main-nav>
     <a class="nav-link" href="/index.php">Home</a>
     <a class="nav-link" href="/about.php">About</a>
