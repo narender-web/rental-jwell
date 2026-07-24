@@ -14,7 +14,7 @@ include __DIR__ . '/includes/header.php';
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-media">
-      <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=1900&q=80" alt="Premium bridal jewellery rental in Gurgaon" fetchpriority="high" />
+      <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=1900&q=80" alt="Premium bridal jewellery rental in Gurgaon" fetchpriority="high" />
     </div>
     <div class="hero-content">
       <span class="hero-tag">Luxury Jewellery on Rent for Every Occasion</span>
